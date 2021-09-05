@@ -1,20 +1,20 @@
-int sabiranje(int num1, int num2) {
-        return num1 + num2;
+void sabiranje(int num1, int num2) {
+        printf(num1 + num2);
 }
 
-int oduzimanje(int num1, int num2) {
-        return num1 - num2;
+void oduzimanje(int num1, int num2) {
+        printf(num1 - num2);
 }
 
-int deljenje(int num1, int num2) {
-        return num1 / num2;
+void deljenje(int num1, int num2) {
+        printf(num1 / num2);
 }
 
-int mnozenje(int num1, int num2) {
-        return num1 * num2;
+void mnozenje(int num1, int num2) {
+        printf(num1 * num2);
 }
 
-int ostatak(int num1, int num2) {
-        return num1 % num2;
+void ostatak(int num1, int num2) {
+        printf(num1 % num2);
 }
 
